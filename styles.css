@@ -1,0 +1,101 @@
+
+html {
+  background-image: url(seigaiha.png);
+}
+
+header {
+  width:960px;
+  border-bottom: 5px #eee;
+
+
+}
+
+h1 {
+  padding: 20px;
+  padding-left: 30px;
+  margin:0;
+  font-size: 28px;
+  color:white;
+  background:red;
+  text-align:left;
+}
+
+
+
+h2 {
+  font-size: 24px;
+  color: red;
+}
+
+#topNav {
+  float: left;
+  background: white;
+}
+#sideNav {
+  float:left;
+ }
+
+li  {
+  list-style-type: none;
+  float: left;
+  background: white;
+  padding:20px;
+
+}
+
+li a {
+  text-decoration: none;
+  padding:20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.container {
+  
+  width: 650px;
+  margin: auto;
+  font-size: 18px;
+  color: #333;
+  float:left;
+  padding-left: 100px;
+
+}
+
+#mainBio{
+  margin-bottom: 30px;
+  background: white;
+}
+
+#mainBio,
+#bioImage {
+  float: left;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#mainBio p {
+  font-family: Arial, sans-serif;
+}
+
+#bioImage {
+  
+  margin-right: 20px;
+}
+
+#socialBar {
+  float: left;
+  padding:10px;
+  background: white;
+  margin:auto;
+
+}
+
+
+
+footer {
+  clear: both;
+  text-align: center;
+  padding:20px;
+  background: red;
+  border-top: 10px solid #4aaaa5;
+
+}

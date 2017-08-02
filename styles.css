@@ -5,42 +5,41 @@ html {
 
 header {
   width:960px;
-  border-bottom: 5px #eee;
-
-
+  border-bottom: 20px;
 }
 
 h1 {
   padding: 20px;
-  padding-left: 30px;
   margin:0;
   font-size: 28px;
   color:white;
   background:red;
-  text-align:left;
+
 }
 
-
+#nav {
+  float: left;
+}
 
 h2 {
   font-size: 24px;
   color: red;
 }
 
-#topNav {
+
+.header {
   float: left;
   background: white;
+  border-bottom: 2px solid black;
+  margin-left: 100px;
 }
-#sideNav {
-  float:left;
- }
+
+
 
 li  {
   list-style-type: none;
-  float: left;
   background: white;
   padding:20px;
-
 }
 
 li a {
@@ -48,19 +47,20 @@ li a {
   padding:20px;
   text-align: center;
   font-family: Arial, sans-serif;
+  color: black;
 }
 .container {
   
   width: 650px;
   margin: auto;
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
   float:left;
-  padding-left: 100px;
 
 }
 
 #mainBio{
+  float:left;
   margin-bottom: 30px;
   background: white;
 }
@@ -77,7 +77,6 @@ li a {
 }
 
 #bioImage {
-  
   margin-right: 20px;
 }
 
@@ -86,16 +85,17 @@ li a {
   padding:10px;
   background: white;
   margin:auto;
+  width: 270px;
 
 }
-
 
 
 footer {
   clear: both;
   text-align: center;
-  padding:20px;
+  padding:30px;
   background: red;
   border-top: 10px solid #4aaaa5;
-
+  color:white;
+  margin-top: -30px;
 }

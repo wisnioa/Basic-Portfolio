@@ -3,9 +3,13 @@ html {
   background-image: url(seigaiha.png);
 }
 
-header {
+.header {
   width:960px;
-  border-bottom: 20px;
+  background: white;
+  float: left;
+  background: white;
+  border-bottom: 1px solid #cccccc;
+  margin-left: 100px;
 }
 
 h1 {
@@ -13,12 +17,24 @@ h1 {
   margin:0;
   font-size: 28px;
   color:white;
-  background:red;
-
+  background: #4aaaa5;
+  width: 28%;
+  float: left;
 }
 
 #nav {
-  float: left;
+  float: right;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#nav a {
+  text-decoration: none;
+  color:#777777;
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+
 }
 
 h2 {
@@ -27,53 +43,33 @@ h2 {
 }
 
 
-.header {
-  float: left;
-  background: white;
-  border-bottom: 2px solid black;
-  margin-left: 100px;
-}
-
-
-
-li  {
-  list-style-type: none;
-  background: white;
-  padding:20px;
-}
-
-li a {
-  text-decoration: none;
-  padding:20px;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  color: black;
-}
 .container {
-  
-  width: 650px;
   margin: auto;
   font-size: 16px;
   color: #333;
   float:left;
-
 }
 
-#mainBio{
+#mainStuff{
   float:left;
-  margin-bottom: 30px;
+  width:650px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   background: white;
+  margin-left:100px;
+  border: 2px solid #dddddd;
 }
 
-#mainBio,
+#mainStuff,
 #bioImage {
   float: left;
   margin-top: 20px;
-  padding: 20px;
+  padding: 18px;
 }
 
-#mainBio p {
+#mainStuff p {
   font-family: Arial, sans-serif;
+  color:#777777;
 }
 
 #bioImage {
@@ -81,21 +77,99 @@ li a {
 }
 
 #socialBar {
-  float: left;
+  float: right;
   padding:10px;
   background: white;
   margin:auto;
   width: 270px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border:1px solid #cccccc;
 
 }
 
+#socialBar h2 {
+  text-align: center;
+  font-weight: 20px;
+}
+
+#socialBar img {
+  margin-left: 18px;
+}
 
 footer {
   clear: both;
   text-align: center;
+  font-size:17px;
   padding:30px;
-  background: red;
-  border-top: 10px solid #4aaaa5;
+  background: #4aaaa5;
+  border-top: 10px solid #666666;
   color:white;
   margin-top: -30px;
+  width:960px;
+  margin-left: 100px;
 }
+
+.contact-form {
+  float:left;
+  height:400px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+#boxName {
+    width: 100%;
+    padding: 10px;
+    background-color:#4aaaa5;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+  
+
+#box1, #box3, #box5 {
+  width: 275px;
+  height: 200px;
+  margin: 10px 35px 10px 0px;
+  padding-top: 120px;
+  background-image: url(placeholder.jpg);
+  }
+
+#box2, #box4 {
+    float: right;
+    width: 270px;
+    height: 200px;
+    margin: 10px 0px 10px 0px;
+    padding-top: 120px;
+    background-image: url(placeholder.jpg);
+}
+
+
+#boxArea {
+    float: left;
+    width: 650px;
+    padding: 20px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    background-color:white;
+    margin-left:100px;
+    border:1px solid #cccccc;
+ 
+  
+}
+
+.contact-form{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    border:1px solid #cccccc;
+}
+
+#commentBox {
+  height:200px;
+ width: 400px;
+} 
+
+
+
+

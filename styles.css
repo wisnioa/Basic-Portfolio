@@ -43,20 +43,22 @@ h2 {
 }
 
 
-.container {
-  margin: auto;
-  font-size: 16px;
-  color: #333;
-  float:left;
-}
 
+.container {
+  width: 100%;
+  max-width: 960px;
+  font-size: 16px;
+  margin-left: 100px;
+  color: #333;
+  clear: both;
+}
 #mainStuff{
   float:left;
   width:650px;
   margin-top: 10px;
   margin-bottom: 20px;
   background: white;
-  margin-left:100px;
+  margin-left:5px;
   border: 2px solid #dddddd;
 }
 
@@ -76,7 +78,29 @@ h2 {
   margin-right: 20px;
 }
 
-#socialBar {
+
+.socialBar {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+.social {
+  float: right;
+  width: 100%;
+  max-width: 270px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+/* #socialBar {
   float: right;
   padding:10px;
   background: white;
@@ -86,7 +110,7 @@ h2 {
   margin-top: 20px;
   border:1px solid #cccccc;
 
-}
+} */
 
 #socialBar h2 {
   text-align: center;
@@ -117,47 +141,52 @@ footer {
   font-size: 20px;
 }
 
-
-#boxName {
-    width: 100%;
-    padding: 10px;
-    background-color:#4aaaa5;
-    text-align: center;
-    color: white;
-    font-family: Arial, sans-serif;
-}
+#boxArea {
   
-
-#box1, #box3, #box5 {
-  width: 275px;
-  height: 200px;
-  margin: 10px 35px 10px 0px;
-  padding-top: 120px;
-  background-image: url(placeholder.jpg);
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
   }
 
-#box2, #box4 {
-    float: right;
-    width: 270px;
-    height: 200px;
-    margin: 10px 0px 10px 0px;
-    padding-top: 120px;
-    background-image: url(placeholder.jpg);
+
+#box {
+  position: relative;
+  float: left;
+  width: 290px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
-
-#boxArea {
-    float: left;
-    width: 650px;
-    padding: 20px;
-    margin-top:30px;
-    margin-bottom: 30px;
-    background-color:white;
-    margin-left:100px;
-    border:1px solid #cccccc;
+#boxName {
  
-  
-}
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 0;
+      font-weight: 300;
+      line-height: 30px;
+      color: #fff;
+      text-align: center;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+
+    #box img {
+      width: 100%;
+      border: 0 none;
+      opacity: 0.8;
+    }
+    
+
+    #box:nth-child(even) {
+      margin-right: 40px;
+    }
 
 .contact-form{
     font-family: Arial, sans-serif;
@@ -171,5 +200,17 @@ footer {
 } 
 
 
-
+h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
 

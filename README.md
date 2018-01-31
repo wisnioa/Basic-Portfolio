@@ -2,3 +2,4 @@
 
 In this assignment, we built a professional portfolio site using HTML/CSS. The objective is to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
 
+Deployed via GitHub Pages: https://wisnioa.github.io/Basic-Portfolio/
